@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master:
-      image: bmogul/mywebclass:master
+      image: bmogul/mywebclass
       deploy:
         replicas: 2
       pull_policy: always
